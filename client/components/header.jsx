@@ -3,18 +3,13 @@ import Menu from './menu';
 
 function Header(props) {
   return (
-    <div className="container">
-      <div className="headerBackground row justify-content-end mx-3 mt-5 mb-1">
-        <div>
-          <img className="headerImage" src="./image/redHeart.png" alt=""/>
+    <div>
+      <div className="col-12 headerBackground row justify-content-end mb-1 ">
+        <div className="headerTextMenu textFont textSize flex-fill mt-2 align-self-center text-capitalize">
+          <img className=" headerImage" src="./image/redHeart.png" alt="" />
+          {props.text}
         </div>
-        {/* <div className="logoBackground"> */}
-          <div className="headerTextMenu textFont textSize flex-fill align-self-center text-capitalize">{props.text}</div>
-
-
-        {/* </div> */}
-
-        <Menu setView={ props.setView }/>
+        <Menu setView={props.setView} />
       </div>
     </div>
   );
