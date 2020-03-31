@@ -27,7 +27,7 @@ class Menu extends React.Component {
       opacity: "0.5"
     }
 
-    const menuStyle = "border border-dark modal-body py-0 px-0 w-50"
+    const menuStyle = "border border-dark modal-body py-0 px-0"
     const menuTextStyle ="pl-2 py-4 font-weight-bold"
 
     if (!this.state.showMenu) {
@@ -36,9 +36,9 @@ class Menu extends React.Component {
     } else {
       return (
         <div className="wrapper headerMenuSize textFont">
-          <nav className="container d-flex column modal py-0 px-0 h-100 w-100 d-inline-block" style={containerOpacity}>
-            <div className={menuStyle} style={greyDivOpacity} onClick={this.setMenu}></div>
-            <div className={menuStyle} style={menuDivOpacity}>
+          <nav className="d-flex column modal py-0 px-0 h-100 w-100 d-inline-block" style={containerOpacity}>
+            <div id="modalWidth" className={menuStyle} style={greyDivOpacity} onClick={this.setMenu}></div>
+            <div id="modalMenuWidth" className={menuStyle} style={menuDivOpacity}>
               <div className={menuTextStyle} onClick={
                 () => { this.props.setView("home", {});
                 this.setMenu();}}>Home</div>
