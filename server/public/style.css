@@ -328,16 +328,33 @@ table.table-bordered > tbody > tr > th{
 
 
 /* -------------------------- iphone 6,7,8 : landscape ----------------------------*/
-/* @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-} */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .homeTextContainer {
+    margin-top: 10%;
+}
+
+.recipeContainer {
+    padding: 3% 0;
+    width: 34%;
+    margin: 0px auto;
+}
+
+.mt-5, .my-5 {
+    margin-top: 0rem!important;
+}
+
+}
 
 
 
 
 /* -------------------------- iphone 6,7,8 : portrait ----------------------------*/
-/* @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+#modalMenuWidth {
+    width: 110vw;
+}
 
-} */
+}
 
 /* --------------------------- iPads (landscape) ----------- */
 /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
