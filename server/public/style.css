@@ -28,6 +28,7 @@ body{
 .searchIcon{
     height: 19px;
     width: 19px;
+    margin-left: -2rem;
 }
 
 .propsImage{
@@ -205,13 +206,13 @@ padding: 0 5px;
     display: inline-block;
 }
 
-.searchBarForm > button {
+/* .searchBarForm > button {
     background: white;
     font-size: 3vmin;
     border-radius: 3%;
     border: none;
     cursor: pointer;
-}
+} */
 
 
 

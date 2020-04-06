@@ -31,8 +31,9 @@ class SearchBar extends React.Component {
               value={this.state.value}
               placeholder=" Search"
               onChange={this.handleChange} />
-            {<button><img className="searchIcon mx-1 mb-2" src="./image/searchIcon.png" alt="searchPicture" onClick={e => this.handleSearch(e)} /></button>}
+            {/* {<button><img className="searchIcon mx-1 mb-2" src="./image/searchIcon.png" alt="searchPicture" onClick={e => this.handleSearch(e)} /></button>} */}
             {/* {<img className="searchIcon mx-1 mb-2" src="./image/searchIcon.png" alt="searchPicture" onClick={e => this.handleSearch(e)} />} */}
+            {<img className="searchIcon" src="./image/searchIcon.png" alt="searchPicture" onClick={e => this.handleSearch(e)} />}
 
           </div>
 
