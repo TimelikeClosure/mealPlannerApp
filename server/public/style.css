@@ -108,7 +108,7 @@ body{
 }
 
 .searchInputRecipeList{
-    margin-top:-3rem;
+    margin-top:-15rem;
 }
 
 .searchInputRecipeListDetail{
@@ -186,9 +186,12 @@ input[type=checkbox]:checked + label{
 }
 
 .section>.row{
-    display: flex;
+    /* display: flex;
+     margin: 20px; */
+    display: block;
+    margin: 0 17rem;
     flex-direction: column;
-    margin: 20px;
+
 }
 
 /*
@@ -370,9 +373,17 @@ table.table-bordered > tbody > tr > th{
 }
 
 .searchBarInput {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     width: 27rem;
     height: 2.5rem;
+}
+
+.searchInputRecipeList {
+    margin-top: -1rem;
+}
+
+.searchInputRecipeListDetail {
+    margin-top: -1rem;
 }
 
 
@@ -389,9 +400,17 @@ table.table-bordered > tbody > tr > th{
 }
 
 .searchBarInput {
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     width: 20rem;
     height: 2.5rem;
+}
+
+.searchInputRecipeList {
+    margin-top: -7rem;
+}
+
+.searchInputRecipeListDetail {
+    margin-top: -7rem;
 }
 
 .homeText {
@@ -408,6 +427,12 @@ table.table-bordered > tbody > tr > th{
     margin-top: 13rem;
 }
 
+.searchInputRecipeList {
+    margin-top: -14rem;
+}
+
+
+
 }
 
 /* ----------------------------------------- iPads (portrait) ----------- */
@@ -416,6 +441,14 @@ table.table-bordered > tbody > tr > th{
     width: 32rem;
     height: 3rem;
     margin-top: 14rem;
+}
+
+.searchInputRecipeList {
+    margin-top: -15rem;
+}
+
+.searchInputRecipeListDetail {
+    margin-top: -15rem;
 }
 
 }
