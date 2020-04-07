@@ -55,7 +55,8 @@ class RecipesCategoriesList extends React.Component{
       return (
         <div>
           <Header setView={this.props.setView} text={this.props.category}/>
-          <div className="container textFont">
+          {/* <div className="container textFont"> */}
+          <div className="textFont searchInputRecipeList">
             <div className="row justify-content-center my-5">
               <SearchBar setView={this.props.setView}/>
             </div>
