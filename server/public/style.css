@@ -373,7 +373,7 @@ table.table-bordered > tbody > tr > th{
 }
 
 .searchBarInput {
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     width: 27rem;
     height: 2.5rem;
 }
@@ -386,7 +386,10 @@ table.table-bordered > tbody > tr > th{
     margin-top: -1rem;
 }
 
-
+.section>.row {
+    display: block;
+    margin: 0 4rem;
+}
 
 }
 
@@ -400,10 +403,11 @@ table.table-bordered > tbody > tr > th{
 }
 
 .searchBarInput {
-    /* margin-top: 7rem; */
+    margin-top: 7rem;
     width: 20rem;
     height: 2.5rem;
 }
+
 
 .searchInputRecipeList {
     margin-top: -7rem;
@@ -415,6 +419,11 @@ table.table-bordered > tbody > tr > th{
 
 .homeText {
     font-size: 1.5rem;
+}
+
+.section>.row {
+    display: block;
+    margin: -1.5rem 1rem;
 }
 
 }
@@ -449,6 +458,11 @@ table.table-bordered > tbody > tr > th{
 
 .searchInputRecipeListDetail {
     margin-top: -15rem;
+}
+
+.section>.row {
+    display: block;
+    margin: 0px 10rem;
 }
 
 }
