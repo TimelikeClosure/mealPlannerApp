@@ -142,7 +142,7 @@ class RecipeDetails extends React.Component {
     return (
       <div>
         <Header setView={this.props.setView} text="Epic Meal Planner"/>
-        <div className="container textFont">
+        <div className="container textFont searchInputRecipeListDetail">
           <div className="row justify-content-center my-5">
             <SearchBar setView={this.props.setView}/>
           </div>

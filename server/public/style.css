@@ -100,7 +100,6 @@ body{
 }
 
 
-
 .searchBarInput {
     outline: none;
     width: 42rem;
@@ -110,6 +109,11 @@ body{
 
 .searchInputRecipeList{
     margin-top:-3rem;
+}
+
+.searchInputRecipeListDetail{
+     margin-top:-3rem;
+
 }
 
 /* .container > .searchInput1{
