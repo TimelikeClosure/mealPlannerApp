@@ -327,13 +327,14 @@ html{
 }
 
 .loader {
- margin: auto;
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #62686d;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  animation: spin 1s linear infinite;
+    display: block;
+    margin: 21rem auto;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #62686d;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -394,6 +395,10 @@ table.table-bordered > tbody > tr > th{
     margin: 0 4rem;
 }
 
+.loader {
+    margin: 6rem auto;
+}
+
 }
 
 
@@ -427,6 +432,10 @@ table.table-bordered > tbody > tr > th{
 .section>.row {
     display: block;
     margin: -1.5rem 1rem;
+}
+
+.loader {
+    margin: 12rem auto;
 }
 
 }
