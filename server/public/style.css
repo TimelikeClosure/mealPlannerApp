@@ -91,13 +91,15 @@ body{
 }
 
 .homeTextContainer{
-    margin-top:33%;
+    margin-top: 9%;
+    /* margin-top:33%; */
 }
 
 .searchBarInput{
     outline: none;
     width: 20rem;
     height: 2.5rem;
+    margin-top: 18rem;
 }
 
 .headerMenuSize{
@@ -349,6 +351,10 @@ table.table-bordered > tbody > tr > th{
     margin-top: 2rem;
 }
 
+.searchBarInput {
+    margin-top: 1rem;
+}
+
 }
 
 
@@ -360,14 +366,28 @@ table.table-bordered > tbody > tr > th{
     width: 110vw;
 }
 
+.searchBarInput {
+    margin-top: 7rem;
+}
+
 }
 
 /* --------------------------- iPads (landscape) ----------- */
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .searchBarInput {
+    width: 32rem;
+    height: 3rem;
+    margin-top: 13rem;
+}
 
-} */
+}
 
 /* ----------------------------------------- iPads (portrait) ----------- */
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .searchBarInput {
+    width: 32rem;
+    height: 3rem;
+    margin-top: 13rem;
+}
 
-} */
+}
