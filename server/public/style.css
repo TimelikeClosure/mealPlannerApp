@@ -100,7 +100,7 @@ body{
 .searchBarInput {
     outline: none;
     width: 42rem;
-    height: 2.5rem;
+    height: 3rem;
     margin-top: 18rem;
 }
 
@@ -355,7 +355,8 @@ table.table-bordered > tbody > tr > th{
 
 .searchBarInput {
     margin-top: 1rem;
-    width: 20rem;
+    width: 27rem;
+    height: 2.5rem;
 }
 
 
@@ -374,6 +375,7 @@ table.table-bordered > tbody > tr > th{
 .searchBarInput {
     margin-top: 7rem;
     width: 20rem;
+    height: 2.5rem;
 }
 
 .homeText {
