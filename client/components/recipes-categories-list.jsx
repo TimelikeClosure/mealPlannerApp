@@ -36,7 +36,7 @@ class RecipesCategoriesList extends React.Component{
       this.setState({ categoryList: recipes });
     })
   }
-    
+
   render(){
     if ( this.state.categoryList.length === 0 ){
            return (
@@ -56,7 +56,7 @@ class RecipesCategoriesList extends React.Component{
         <div>
           <Header setView={this.props.setView} text={this.props.category}/>
           <div className="container textFont">
-            <div className="row justify-content-center my-5">
+            <div className="row justify-content-center my-5 searchInput1">
               <SearchBar setView={this.props.setView}/>
             </div>
             <div>
