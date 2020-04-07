@@ -110,12 +110,12 @@ body{
 }
 
 .searchInputRecipeList{
-    margin-top:-15rem;
+    margin-top:-16rem;
 }
 
-.searchInputRecipeListDetail{
-     margin-top:-3rem;
 
+.searchInputRecipeListDetail {
+    margin-top: -16rem;
 }
 
 /* .container > .searchInput1{
@@ -440,6 +440,10 @@ table.table-bordered > tbody > tr > th{
 
 .searchInputRecipeList {
     margin-top: -14rem;
+}
+
+.searchInputRecipeListDetail {
+    margin-top: -12rem;
 }
 
 
