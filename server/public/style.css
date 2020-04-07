@@ -1,6 +1,7 @@
 body{
     background: url("https://www.azamara.com/sites/default/files/heros/med-food-hero.jpg") no-repeat bottom center scroll;
     background-size:cover;
+    height: 100vh;
 }
 
 .headerBackground{
