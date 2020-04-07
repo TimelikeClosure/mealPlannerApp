@@ -1,7 +1,10 @@
 body{
-    background: url("https://www.azamara.com/sites/default/files/heros/med-food-hero.jpg") no-repeat bottom center scroll;
-    background-size:cover;
-    height: 100vh;
+    background: url("https://www.azamara.com/sites/default/files/heros/med-food-hero.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .headerBackground{
@@ -105,9 +108,9 @@ body{
     margin-top: 18rem;
 }
 
-.container > .searchInput1{
+/* .container > .searchInput1{
     margin-top:-4rem;
-}
+} */
 
 .headerMenuSize{
     font-size: 1.5rem;
