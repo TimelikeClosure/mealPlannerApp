@@ -95,7 +95,9 @@ body{
 }
 
 .searchBarInput{
-    outline:none;
+    outline: none;
+    width: 20rem;
+    height: 2.5rem;
 }
 
 .headerMenuSize{
@@ -341,6 +343,10 @@ table.table-bordered > tbody > tr > th{
 
 .mt-5, .my-5 {
     margin-top: 0rem!important;
+}
+
+.searchBarForm {
+    margin-top: 2rem;
 }
 
 }
