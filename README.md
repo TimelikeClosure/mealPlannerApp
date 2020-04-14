@@ -1,4 +1,4 @@
-# Epic_mealplanner 
+# Epic Meal Planner 
  - Live site: http://mealplanner.kimcodes.life/
 
 
