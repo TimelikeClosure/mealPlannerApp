@@ -46,7 +46,7 @@ class App extends React.Component {
           <Header setView={this.setView} text={'epic meal planner'}/>
 
 
-          <div className="container searchInputRecipeList">
+          <div className="container">
             <div className="row justify-content-center my-5">
               <SearchBar setView={this.setView}/>
             </div>
