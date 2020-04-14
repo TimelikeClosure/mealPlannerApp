@@ -108,11 +108,12 @@ body{
     outline: none;
     width: 42rem;
     height: 3rem;
-    margin-top: 18rem;
+    /* margin-top: 18rem; */
+    margin-top: 5rem;
 }
 
 .searchInputRecipeList{
-    margin-top:-16rem;
+    margin-top:0rem;
 }
 
 
