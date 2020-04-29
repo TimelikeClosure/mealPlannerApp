@@ -7,6 +7,7 @@ set_exception_handler('error_handler');
 startUp();
 
 $json_input = file_get_contents('php://input');
+// $obj = json_decode($json_input, true);
 $obj = json_decode($json_input, true);
 
 $category = $_GET['category'];
@@ -23,7 +24,9 @@ LIMIT 5 ";
 $result = mysqli_query($conn, $query);
 
 if (empty($result)) {
-  throw new Exception(mysqli_error($conn));
+  // throw new Exception(mysqli_error($conn));
+  print(json_encode(["empty result"]));
+  exit();
 };
 
 $output = [];
