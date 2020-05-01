@@ -100,7 +100,7 @@ class RecipeDetails extends React.Component {
 
   handleShoppingList() {
     let recipe = this.props.recipe.ingredients.split('\n');
-    fetch(`/api/addtoShoppingListFromDetails.php`, {
+    fetch(`/api/addToShoppingListFromDetails.php`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

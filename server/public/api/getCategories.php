@@ -6,11 +6,16 @@ set_exception_handler('error_handler');
 
 startUp();
 
+$output = [];
+
 $json_input = file_get_contents('php://input');
 // $obj = json_decode($json_input, true);
 $obj = json_decode($json_input, true);
 
 $category = $_GET['category'];
+
+print($category);
+exit;
 
 $query = "SELECT r.id, r.directions_url, r.image_url, r.serving_size, r.label, r.cooking_time, r.categories,
 GROUP_CONCAT(i.ingredients_desc SEPARATOR '\n') AS ingredients
@@ -29,7 +34,7 @@ if (empty($result)) {
   exit();
 };
 
-$output = [];
+
 while ($row = mysqli_fetch_assoc($result)) {
   $output[] = $row;
 };
