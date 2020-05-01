@@ -28,6 +28,12 @@ LIMIT 5 ";
 // print($query);
 // exit;
 
+if(mysqli_connect_errno()){
+  print(json_encode(mysqli_connect_error()));
+  exit;
+}
+
+
 $result = mysqli_query($conn, $query);
 
 if (empty($result)) {
