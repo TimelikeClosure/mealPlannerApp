@@ -14,8 +14,7 @@ $obj = json_decode($json_input, true);
 
 $category = $_GET['category'];
 
-print($category);
-exit;
+
 
 $query = "SELECT r.id, r.directions_url, r.image_url, r.serving_size, r.label, r.cooking_time, r.categories,
 GROUP_CONCAT(i.ingredients_desc SEPARATOR '\n') AS ingredients
@@ -25,6 +24,9 @@ ON r.id = i.recipe_id
 WHERE r.categories LIKE '%{$category}%'
 GROUP BY i.recipe_id
 LIMIT 5 ";
+
+print($query);
+exit;
 
 $result = mysqli_query($conn, $query);
 
