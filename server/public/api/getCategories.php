@@ -46,6 +46,7 @@ if (empty($result)) {
 while ($row = mysqli_fetch_assoc($result)) {
   $output[] = $row;
 };
+$output[] = "printing output";
 
 print(json_encode($output));
 
